@@ -1,4 +1,4 @@
-# The Bermuda Airdrop/Testnet 🔺
+# 🔺 The Bermuda Airdrop/Testnet 🔺
 
 Owshen is an innovative privacy platform developed for EVM-based blockchains. Here you will find the instructions to contribute in Owshen's very first ***airdrop*** and ***testnet***, known as The Bermuda Testnet.
 
@@ -22,6 +22,6 @@ Before starting our testnet, we are running a zk-airdrop do distribute the very 
     ```
 5. Run the Owshen Wallet and navigate to http://127.0.0.1:9000 in your browser.
 6. Copy your Owshen Address and put it as a comment on our post!
-7. The Airdrop is up until 31st December. The finalized list of airdrop receivers will be announced in our github! https://github.com/OwshenNetwork/genesis
+7. The Airdrop is ***UP UNTIL 31st DECEMBER***. The finalized list of airdrop receivers will be announced in our github! https://github.com/OwshenNetwork/genesis
  
 Merry Christmas and happy diving! :swimmer: 
