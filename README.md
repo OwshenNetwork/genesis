@@ -13,15 +13,18 @@ Before starting our testnet, we are running a zk-airdrop do distribute the very 
     ```
 3. Download the latest AppImage of the Owshen Wallet in the releases section.
     ```bash
-    wget https://.../OwshenWallet.AppImage
+    wget https://github.com/OwshenNetwork/owshen/releases/download/v0.1.0/Owshen_v0.1.0_x86_64.AppImage
     ```
 4. Initialize your wallet and ***KEEP YOUR 12-WORD MNEMONIC PHRASE IN A SAFE PLACE!***
     ```bash
-    chmod +x OwshenWallet.AppImage
-    ./OwshenWallet.AppImage init
+    chmod +x Owshen_v0.1.0_x86_64.AppImage
+    ./Owshen_v0.1.0_x86_64.AppImage init
     ```
 5. Run the Owshen Wallet and navigate to http://127.0.0.1:9000 in your browser.
-6. Copy your Owshen Address and put it as a comment on our post!
-7. The Airdrop is ***UP UNTIL 31st DECEMBER***. The finalized list of airdrop receivers will be announced in our github! https://github.com/OwshenNetwork/genesis
+    ```bash
+    ./Owshen_v0.1.0_x86_64.AppImage wallet
+    ```
+7. Copy your Owshen Address and put it as a comment on our post!
+8. The Airdrop is ***UP UNTIL 31st DECEMBER***. The finalized list of airdrop receivers will be announced in our github! https://github.com/OwshenNetwork/genesis
  
 Merry Christmas and happy diving! :swimmer: 
