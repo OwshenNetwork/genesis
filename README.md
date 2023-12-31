@@ -25,7 +25,7 @@ Before starting our testnet, we are running a zk-airdrop do distribute the very 
     ```
 6. Run the Owshen Wallet and navigate to http://127.0.0.1:9000 in your browser.
     ```bash
-    ./Owshen_v0.1.0_x86_64.AppImage wallet
+   ./Owshen_v0.1.0_x86_64.AppImage info
     ```
 7. Copy your Owshen Address and put it as a comment under our post! https://x.com/OwshenNetwork/status/1739258666199449979
 8. The Airdrop is ***UP UNTIL 31st DECEMBER***. The finalized list of airdrop receivers will be announced in our github! https://github.com/OwshenNetwork/genesis
