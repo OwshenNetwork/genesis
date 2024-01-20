@@ -9,9 +9,10 @@ Make sure you have your own personal computer with GNU/Linux. Trying to launch t
 ## Steps
 
 1. Get yourself a GNU/Linux machine. (Ubuntu +22.04 preferred)
-2. Install `libfuse2`:
+2. Install `libfuse2`, `nodejs` and `snarkjs`:
     ```bash
-    sudo apt install libfuse2
+    sudo apt install libfuse2 nodejs
+    sudo npm install -g snarkjs
     ```
 3. Download the latest AppImage of the Owshen Wallet:
     ```bash
