@@ -1,10 +1,12 @@
-# 🔺 The Bermuda Airdrop/Testnet 🔺
+# 🔺 The Bermuda Testnet 🔺
 
-Owshen is an innovative privacy platform developed for EVM-based blockchains. Here you will find the instructions to contribute in Owshen's very first ***airdrop*** and ***testnet***, known as The Bermuda Testnet.
+Owshen is an innovative privacy platform developed for EVM-based blockchains. Owshen's very first testnet, The Bermuda Testnet is getting ready to launch! Excited to check it out before it officially starts? Just follow these steps!
 
-## Claim your airdrop!
+(***PLEASE NOTE:*** THE TESTNET HAS NOT LAUNCHED YET. THIS GUIDE HELPS YOU INSTALL THE APP BEFORE THE OFFICIAL LAUNCH. SO, THERE ARE NO REWARDS FOR THE GIVEN TASKS!)
 
-Before starting our testnet, we are running a zk-airdrop do distribute the very first DIVE tokens to our users. In order to participate in this airdrop, you will need an Owshen Address. This is how you can get an Owshen Address:
+Make sure you have your own personal computer with GNU/Linux. Trying to launch the Owshen wallet on a VPS might cause problems, and ***it's also not safe to do it that way!***
+
+## Steps
 
 1. Get yourself a GNU/Linux machine. (Ubuntu +22.04 preferred)
 2. Install `libfuse2`:
@@ -13,21 +15,27 @@ Before starting our testnet, we are running a zk-airdrop do distribute the very 
     ```
 3. Download the latest AppImage of the Owshen Wallet:
     ```bash
-    wget https://github.com/OwshenNetwork/owshen/releases/download/v0.1.0/Owshen_v0.1.0_x86_64.AppImage
+    wget https://github.com/OwshenNetwork/owshen/releases/download/v0.1.1/Owshen_v0.1.1_x86_64.AppImage
     ```
 4. Make it executable:
    ```bash
-    chmod +x Owshen_v0.1.0_x86_64.AppImage
+    chmod +x Owshen_v0.1.1_x86_64.AppImage
    ```
-5. Initialize your wallet and ***KEEP YOUR 12-WORD MNEMONIC PHRASE IN A SAFE PLACE!***
+5. If this is the first time you are creating a wallet, initialize your wallet and ***KEEP YOUR 12-WORD MNEMONIC PHRASE IN A SAFE PLACE!***
     ```bash
-    ./Owshen_v0.1.0_x86_64.AppImage init
+    ./Owshen_v0.1.1_x86_64.AppImage init
     ```
-6. Run the Owshen Wallet and navigate to http://127.0.0.1:9000 in your browser.
+    Otherwise, if you have previously participated in our airdrop and already have a wallet, re-initialize your wallet with your old 12-mnemonic phrase via this command:
     ```bash
-    ./Owshen_v0.1.0_x86_64.AppImage wallet
+    ./Owshen_v0.1.1_x86_64.AppImage init --mnemonic "[YOUR 12 WORD MNEMONIC-PHRASE]"
     ```
-7. Copy your Owshen Address and put it as a comment under our post! https://x.com/OwshenNetwork/status/1739258666199449979
-8. The Airdrop is ***UP UNTIL 31st DECEMBER***. The finalized list of airdrop receivers will be announced in our github! https://github.com/OwshenNetwork/genesis
+    In case you have problems reinitializing your wallet, try removing the old wallet files **(THIS WILL REMOVE YOUR WALLET FILE, MAKE SURE YOU HAVE WRITTEN DOWN YOUR 12-WORD MNEMONIC PHRASE SOMEWHERE!)**:
+    ```bash
+    rm -rf ~/.owshen-wallet
+    rm -rf ~/.owshen-wallet-cache
+    ```
+    And then initialize again!
+6. If you have problems running the wallet, let's discuss in our Discord server: https://discord.gg/owshen
+
  
-Merry Christmas and happy diving! :swimmer: 
+Happy diving! :swimmer: 
