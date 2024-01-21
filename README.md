@@ -34,7 +34,7 @@ Owshen is an innovative privacy platform developed for EVM-based blockchains. Ow
     And then initialize again!
 6. Run the Owshen wallet! You should be able to see your DIVE balance in case you have successfully participated on our Bermuda airdrop!
     ```
-    ./Owshen_v0.1.1_x86_64.AppImage wallet
+    ./Owshen_v0.1.2_x86_64.AppImage wallet
     ```
 7. If you have problems running the wallet, let's discuss in our Discord server: https://discord.gg/owshen
 
