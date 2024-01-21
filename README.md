@@ -1,10 +1,6 @@
 # 🔺 The Bermuda Testnet 🔺
 
-Owshen is an innovative privacy platform developed for EVM-based blockchains. Owshen's very first testnet, The Bermuda Testnet is getting ready to launch! Excited to check it out before it officially starts? Just follow these steps!
-
-(***PLEASE NOTE:*** THE TESTNET HAS NOT LAUNCHED YET. THIS GUIDE HELPS YOU INSTALL THE APP BEFORE THE OFFICIAL LAUNCH. SO, THERE ARE NO REWARDS FOR THE GIVEN TASKS!)
-
-Make sure you have your own personal computer with GNU/Linux. Trying to launch the Owshen wallet on a VPS might cause problems, and ***it's also not safe to do it that way!***
+Owshen is an innovative privacy platform developed for EVM-based blockchains. Owshen's very first testnet, The Bermuda Testnet has launched! Excited to check it out? Just follow these steps!)
 
 ## Steps
 
@@ -16,19 +12,19 @@ Make sure you have your own personal computer with GNU/Linux. Trying to launch t
     ```
 3. Download the latest AppImage of the Owshen Wallet:
     ```bash
-    wget https://github.com/OwshenNetwork/owshen/releases/download/v0.1.1/Owshen_v0.1.1_x86_64.AppImage
+    wget https://github.com/OwshenNetwork/owshen/releases/download/v0.1.2/Owshen_v0.1.2_x86_64.AppImage
     ```
 4. Make it executable:
    ```bash
-    chmod +x Owshen_v0.1.1_x86_64.AppImage
+    chmod +x Owshen_v0.1.2_x86_64.AppImage
    ```
 5. If this is the first time you are creating a wallet, initialize your wallet and ***KEEP YOUR 12-WORD MNEMONIC PHRASE IN A SAFE PLACE!***
     ```bash
-    ./Owshen_v0.1.1_x86_64.AppImage init
+    ./Owshen_v0.1.2_x86_64.AppImage init
     ```
     Otherwise, if you have previously participated in our airdrop and already have a wallet, re-initialize your wallet with your old 12-mnemonic phrase via this command:
     ```bash
-    ./Owshen_v0.1.1_x86_64.AppImage init --mnemonic "[YOUR 12 WORD MNEMONIC-PHRASE]"
+    ./Owshen_v0.1.2_x86_64.AppImage init --mnemonic "[YOUR 12 WORD MNEMONIC-PHRASE]"
     ```
     In case you have problems reinitializing your wallet, try removing the old wallet files **(THIS WILL REMOVE YOUR WALLET FILE, MAKE SURE YOU HAVE WRITTEN DOWN YOUR 12-WORD MNEMONIC PHRASE SOMEWHERE!)**:
     ```bash
