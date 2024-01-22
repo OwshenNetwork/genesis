@@ -7,6 +7,7 @@ Owshen is an innovative privacy platform developed for EVM-based blockchains. Ow
 1. Get yourself a GNU/Linux machine. (Ubuntu +22.04 preferred)
 2. Install `libfuse2`, `nodejs` and `snarkjs`:
     ```bash
+    sudo add-apt-repository universe
     sudo apt install fuse libfuse2 nodejs -y
     sudo npm install -g snarkjs
     ```
@@ -36,7 +37,13 @@ Owshen is an innovative privacy platform developed for EVM-based blockchains. Ow
     ```
     ./Owshen_v0.1.4_x86_64.AppImage wallet
     ```
-7. If you have problems running the wallet, let's discuss in our Discord server: https://discord.gg/owshen
+7. if you've forgotten to save your mnemonic but have the entropy file, you can convert your entropy to a mnemonic
+    ```
+    cd convert
+    pip install -r requirements.txt
+    python convert_entropy_to_mnemonic.py --entropy-json /path/to/your/.owshen-wallet.json
+    ```
+8. If you have problems running the wallet, let's discuss in our Discord server: https://discord.gg/owshen
 
  
 Happy diving! :swimmer: 
