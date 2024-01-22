@@ -28,7 +28,7 @@ Owshen is an innovative privacy platform developed for EVM-based blockchains. Ow
     ```
     In case you have problems reinitializing your wallet, try removing the old wallet files **(THIS WILL REMOVE YOUR WALLET FILE, MAKE SURE YOU HAVE WRITTEN DOWN YOUR 12-WORD MNEMONIC PHRASE SOMEWHERE!)**:
     ```bash
-    rm -rf ~/.owshen-wallet
+    rm -rf ~/.owshen-wallet.json
     rm -rf ~/.owshen-wallet-cache
     ```
     And then initialize again!
