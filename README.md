@@ -36,7 +36,13 @@ Owshen is an innovative privacy platform developed for EVM-based blockchains. Ow
     ```
     ./Owshen_v0.1.3_x86_64.AppImage wallet
     ```
-7. If you have problems running the wallet, let's discuss in our Discord server: https://discord.gg/owshen
+7. if you've forgotten to save your mnemonic but have the entropy file, you can convert your entropy to a mnemonic
+    ```
+    cd convert
+    pip install -r requirements.txt
+    python convert_entropy_to_mnemonic.py --entropy-json /path/to/your/.owshen-wallet.json
+    ```
+8. If you have problems running the wallet, let's discuss in our Discord server: https://discord.gg/owshen
 
  
 Happy diving! :swimmer: 
