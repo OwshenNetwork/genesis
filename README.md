@@ -39,4 +39,4 @@ Owshen is an innovative privacy platform developed for EVM-based blockchains. Ow
 7. If you have problems running the wallet, let's discuss in our Discord server: https://discord.gg/owshen
 
  
-Happy diving! :swimmer: 
+pack it up guys
